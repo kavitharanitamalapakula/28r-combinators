@@ -1,0 +1,32 @@
+/* answer - 1 */
+.parent>.child{
+    color: #009900;
+}
+/* answer - 2 */
+.header+.text{
+    color: blueviolet;
+}
+/* answer - 3 */
+.title~.content{
+    color: aqua;
+}
+/* answer - 4 */
+#list>.item{
+    color:blue;
+}
+/* answer - 5 */
+#box *{
+    color: brown;
+}
+/* answer - 6 */
+.outer>.inner>.text{
+    color: palevioletred;
+}
+
+/* answer - 7 */
+#main>ul>ul>.sub-item{
+    color: red;
+}
+.content > .text{
+    color: fuchsia;
+}
